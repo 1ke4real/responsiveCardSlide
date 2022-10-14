@@ -17,7 +17,6 @@ body{
 .slide-container{
     max-width: 1120px;
     width: 100%;
-    background-color: gray;
     padding: 40px 0;
 }
 .slide-content{
@@ -126,6 +125,15 @@ body{
     background-color: #d0d8ff;
     opacity: 1;
 }
-..swiper-pagination-bullet-active{
+.swiper-pagination-bullet-active{
     background-color: #9ea7d8;
+}
+
+@media screen and (max-width: 768px){
+    .slide-content{
+        margin: 0 10px;
+    }
+    .swiper-navBtn{
+        display: none;
+    }
 }
